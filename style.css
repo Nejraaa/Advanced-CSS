@@ -1,10 +1,11 @@
-a:link{color:green;}
+a:link {color:green ;}
 a:last-child{color:red;}
-#div3
-:nth-child(2n+2) {color: blue;}
-:nth-of-type(3n+3) {color:red;}
-#zadnji:hover{font-style: italic;}
-h3{color:black;}
 
-#div2
-p::after{content:"-NEW";color:yellow;}
+p:nth-child(2n+4) {color:red;}
+p:nth-child(2n+5) {color:blue;}
+p:last-child:hover {font-style: italic;}
+
+p:nth-of-type(8n+2)::after{content:"-NEW";color: yellow;}
+p:nth-child(2)::after{content:"-NEW";color: yellow;}
+
+ 
